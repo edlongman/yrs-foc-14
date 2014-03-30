@@ -1,0 +1,29 @@
+.venue {
+	@include span-columns(12);
+	margin-top: 2em;
+	a {
+		color: $accent;
+	}
+	h1 {
+		font-size: 2em;
+		font-weight: bold;
+	}
+	.plymouth {
+		@include span-columns(12);
+		height: 200px;
+		background: url(../img/plymouth.jpg);
+		background-position: 0 -50px;
+	}
+	.travel-overview {
+		@include span-columns(6);
+		margin-top: 3em;
+		h2 {
+			font-weight: bold;
+		}
+	}
+	iframe {
+		@extend .travel-overview;
+		@include omega;
+		height: 505px;
+	}
+}

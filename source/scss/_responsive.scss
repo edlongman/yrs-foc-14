@@ -1,0 +1,120 @@
+@media screen and (max-width: 1150px) {
+	.wrapper {
+		padding: 0 1em;
+	}
+	section.pitch {
+		@include span-columns(6);
+	}
+	section.register {
+		@include span-columns(6);
+		@include shift(0);
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.aside {
+		@include span-columns(6);
+	}
+	.main {
+		@include span-columns(6);
+		@include omega;
+	}
+	.bar.sponsors {
+		@include span-columns(6);
+	}
+	header nav ul li {
+		font-size: 0.8em;
+		padding: 1.8em 0;
+	}
+	.centres {
+		.frame-container {
+			max-width: 365px;
+			iframe {	
+				margin-left: -500px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 750px) {	
+	header nav ul li {
+		@include span-columns(6);
+		@include omega(2n+1);
+		padding: .75em 0;
+		&.m-brand {
+			@include span-columns(12);
+			padding: 16px 0;
+		}
+		&.brand {
+			display: none;
+		}
+	}
+	section.pitch {
+		@include span-columns(12);
+	}
+	section.register {
+		@include span-columns(12);
+	}
+	.aside {
+		@include span-columns(12);
+	}
+	.main {
+		@include span-columns(12);
+		@include omega(0);
+	}
+	.venue .travel-overview {
+		@include span-columns(12);
+	}
+	.venue iframe {
+		@include span-columns(12);
+	}
+	.media .images, .media .videos {
+		@include span-columns(12);
+		li .image-entry {
+			height: 250px;
+		}
+		li iframe {
+			height: 250px;
+		}
+	}
+	.media .press li {
+		@include span-columns(12);
+		@include omega(0);
+		margin-bottom: 1.5em;
+	}
+	.contact {
+		ul li {
+			@include span-columns(12);
+			@include omega(0);
+		}
+	}
+	.centres {
+		ul li {
+			@include span-columns(12);
+			@include omega(0);
+		}
+	}
+	.bar.sponsors {
+		@include span-columns(12);
+		ul.sponsors li {
+			@include span-columns(5.5);
+			@include omega(2n);
+			&:first-child {
+				margin-top: 10px;
+			}
+			&:nth-child(2n) {
+				@include shift(1);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.media .images, .media .videos {
+		li {
+			@include span-columns(12);img {
+				height: 300px;
+			}
+		}
+	}
+}

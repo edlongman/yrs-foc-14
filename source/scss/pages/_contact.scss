@@ -1,0 +1,43 @@
+.contact {
+	@include span-columns(12);
+	margin-top: 2em;
+	a {
+		color: $accent;
+	}
+	h1 {
+		font-size: 2em;
+		font-weight: bold;
+	}
+	h2 {
+		@include span-columns(12);
+		font-weight: bold;
+		font-size: 1.25em;
+		margin-top: 1em;
+		margin-bottom: .5em;
+	}
+	ul {
+		li { 
+			@include span-columns(4);
+			@include omega(3n);
+			height: 100px;
+			margin-bottom: 15px;
+			a {
+				border: 2.5px solid $black-10;
+				margin-bottom: 30px;
+				padding: 1em;
+				display: inline-block;
+				width: 100%;
+				h3 {
+					color: black;
+					font-size: 1.4em;
+				}
+				p {
+					margin-bottom: 0;
+				}
+				&:hover {
+					border: 2.5px solid $accent;
+				}
+			}
+		}
+	}
+}

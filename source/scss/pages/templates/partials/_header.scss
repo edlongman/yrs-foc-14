@@ -1,0 +1,32 @@
+header {
+	border-bottom: 5px solid $accent;
+	background-color: white;
+	nav {
+		@include outer-container;
+		ul {
+			li {
+				@include span-columns(1.35 of 12);
+				text-align: center;
+				font-size: 1em;
+				padding: 1.5em 0;
+				a {
+					color: $accent;
+				}
+				&.brand, &.m-brand {
+					@include span-columns(3.9 of 12);
+					background-color: $accent;
+					padding: 24px 0;
+					a {
+						color: white;
+					}
+				}
+				&.m-brand {
+					display: none;
+				}
+				&.active {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,136 @@
+html {
+	&.n-1 {
+		background: url(../img/home/1.jpg) no-repeat center center fixed; background-size: cover;
+	}
+	&.n-2 {
+		background: url(../img/home/2.jpg) no-repeat center center fixed; background-size: cover;
+	}
+	&.n-3 {
+		background: url(../img/home/3.jpg) no-repeat center center fixed; background-size: cover;
+	}
+	&.n-4 {
+		background: url(../img/home/4.jpg) no-repeat center center fixed; background-size: cover;
+	}
+	&.n-5 {
+		background: url(../img/home/5.jpg) no-repeat center center fixed; background-size: cover;
+	}
+	&.n-6 {
+		background: url(../img/home/6.jpg) no-repeat center center fixed; background-size: cover;
+	}
+	&.n-7 {
+		background: url(../img/home/7.jpg) no-repeat center center fixed; background-size: cover;
+	}
+}
+
+section.pitch {
+	@include span-columns(4);
+	background-color: white;
+	margin-top: 2em;
+	color: $accent;
+	padding: .75em;
+	padding-bottom: 0;
+	h1 {
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-bottom: .5em;
+	}
+	img {
+		width: 100%;
+	}
+	p {
+		font-size: 0.8em;
+	}
+	a.social {
+		display: block;		
+		@include background-image(linear-gradient($accent 0, darken($accent, 10%) 100%));
+		color: white;
+		padding: .5em;
+		font-size: .8em;
+		text-align: center;
+		margin-bottom: .5em;
+		border: 1px solid $accent-dark;
+		border-radius: .25em;
+		@include span-columns(4);
+		&:active {
+			background-image: none;
+			background-color: darken($accent, 5%);
+		}
+		&:last-child {
+			@include omega;
+			margin-bottom: 10px;
+		}
+	} 
+}
+section.register {
+	@include span-columns(4);
+	@include shift(4);
+	@include omega;
+	margin-top: 2em;
+	iframe {
+		width: 100%;
+		height: 200px;
+		margin-bottom: .8em;
+	}
+	h1 {
+		font-size: 1.5em;
+		color: white;
+		font-weight: bold;
+		margin-bottom: .5em;
+		text-shadow: 1px 1px 1px black;
+	}
+	a.form {
+		display: block;		
+		@include background-image(linear-gradient($accent 0, darken($accent, 10%) 100%));
+		color: white;
+		padding: .75em;
+		text-align: center;
+		margin-bottom: .5em;
+		border: 1px solid $accent-dark;
+		border-radius: .25em;
+		&:active {
+			background-image: none;
+			background-color: darken($accent, 5%);
+		}
+	}
+	a.page {
+		color: white;
+		margin-top: 1.5em;
+		@include span-columns(6);
+		text-align: center;
+		@include background-image(linear-gradient($accent 0, darken($accent, 10%) 100%));
+		border: 1px solid $accent-dark;
+		padding: .5em;
+		border-radius: .25em;
+		&:active {
+			background-image: none;
+			background-color: darken($accent, 5%);
+			text-decoration: none;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+		&.contact {
+			margin-right: 0;
+		}
+	}
+	a.poster {
+		@include span-columns(12);
+		@include background-image(linear-gradient($accent 0, darken($accent, 10%) 100%));
+		color: white;
+		padding: .5em;
+		text-align: center;
+		margin-top: .5em;
+		border: 1px solid $accent-dark;
+		border-radius: .25em;
+		&:active {
+			background-image: none;
+			background-color: darken($accent, 5%);
+		}
+
+	}
+	img {
+		width: 70%;
+		margin-left: 15%;
+		margin-top: 20px;
+	}
+}

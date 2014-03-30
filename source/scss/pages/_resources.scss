@@ -1,0 +1,19 @@
+.bar.sponsors {
+	@include span-columns(4);
+	margin-top: 2em;
+	h1 {
+		font-weight: bold;
+		font-size: 2em;
+		margin-bottom: .75em;
+	}
+	ul.sponsors {
+		li {
+			margin-bottom: 2em;
+			a {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

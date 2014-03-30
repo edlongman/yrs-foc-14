@@ -1,0 +1,87 @@
+.media {
+	@include span-columns(12);
+	margin-top: 2em;
+	a {
+		color: $accent;
+	}
+	h1 {
+		font-size: 2em;
+		font-weight: bold;
+	}
+	.images {
+		@include span-columns(6);
+		margin-top: 1em;
+		h2 {
+			font-size: 1.5em;
+			font-weight: bold;
+			margin-bottom: .5em;
+		}
+		li {
+			@include span-columns(3 of 6);
+			@include omega(2n);
+			margin-bottom: 1.5em;
+			.image-entry {
+				width: 100%;
+				height: 150px;
+				background-size: cover;
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.videos {
+		@extend .images;
+		@include omega;
+		li iframe {
+			width: 100%;
+			height: 150px;
+		}
+	}
+	.press {
+		@include span-columns(12);
+		margin-top: 2em;
+		h2 {
+			font-size: 1.5em;
+			font-weight: bold;
+			margin-bottom: .5em;
+		}
+		li {
+			margin-bottom: 3.5em;
+			@include span-columns(4);
+			@include omega(3n);
+			blockquote {
+				margin-top: 2em;
+				p {
+					margin-bottom: 0;
+					padding-right: .75em;
+				}
+				cite {
+					float: right;
+					font-size: 1.25em;
+					&:before {
+						content: "-";
+						color: $black-20;
+						margin-right: .5em;
+					}
+				}
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	.pack {
+		a {
+			font-size: 1.25em;
+			float: right;
+			padding: .5em .75em;
+			@include background-image(linear-gradient($accent 0, darken($accent, 10%) 100%));
+			color: white;
+			border: 1px solid $accent-dark;
+			border-radius: .25em;
+			&:active {
+				background-image: none;
+				background-color: darken($accent, 5%);
+			}
+		}
+	}
+}
