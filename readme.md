@@ -2,7 +2,7 @@
 
 <small>This code is ugly and rushed. Please don't hate me, but feel  free to fix it and submit a pull request. Thanks.</small>
 
-This website is built on <a href="">Bootbuckle</a>, which in turn relies heavily on <a href="">Grunt</a>. This guide should get you started. 
+This website is built on <a href="https://github.com/phazonoverload/bootbuckle">Bootbuckle</a>, which in turn relies heavily on <a href="http://gruntjs.com/">Grunt</a>. This guide should get you started. 
 
 ## Getting started
 
@@ -22,7 +22,7 @@ Preprocessors allow you to write languages with juiced-up features that aren't i
 
 Grunt takes care of this, but we need to go through the syntax differences together to make sure you know how to change things. 
 
-We are using two preprocessors - <a href="">Jade</a> for HTML and <a href="">SASS</a> for CSS.
+We are using two preprocessors - <a href="http://jade-lang.com/">Jade</a> for HTML and <a href="http://sass-lang.com/">SASS</a> for CSS.
 
 ## How are the files organised?
 
