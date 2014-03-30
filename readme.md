@@ -77,3 +77,4 @@ We are using two preprocessors - <a href="http://jade-lang.com/">Jade</a> for HT
 * Remove most page-specific .scss files in favour of templates.
 * Grab data from existing back-end for the centres page instead of using an iframe.
 * Create loop on _index.scss for background image.
+* Get a higher-quality STFC logo for /resources
