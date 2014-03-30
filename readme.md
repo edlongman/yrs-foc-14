@@ -14,7 +14,7 @@ Then type `grunt` in your terminal and leave it running in the background. This 
 
 You will be working in the source folder, and the site will be fully compiled in the build folder. 
 
-**tl;dr - run this in your terminal `git clone https://github.com/phazonoverload/foc2014.git && cd foc2014 && npm install && grunt`**
+**tl;dr - run this in your terminal `git clone https://github.com/phazonoverload/yrs-foc-14.git && cd yrs-foc-14 && npm install && grunt`**
 
 ## Prepro... what?
 
