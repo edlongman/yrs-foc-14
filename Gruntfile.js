@@ -43,11 +43,12 @@ module.exports = function(grunt) {
     imagemin: {
       options: {
         optimizationLevel: 3,
+        cache: false,
       },
       build: {
         expand: true,   
         cwd: "source/img/",           
-        src: ['*.{png,jpg,jpeg,gif}'],   
+        src: ['**/*.{png,jpg,jpeg,gif}'],   
         dest: 'build/img/' 
       }
     },

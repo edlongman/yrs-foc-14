@@ -95,7 +95,7 @@ section.register {
 	a.page {
 		color: white;
 		margin-top: 1.5em;
-		@include span-columns(6);
+		@include span-columns(4);
 		text-align: center;
 		@include background-image(linear-gradient($accent 0, darken($accent, 10%) 100%));
 		border: 1px solid $accent-dark;

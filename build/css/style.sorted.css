@@ -485,7 +485,7 @@ section.register a.page
     display: block;
     float: left;
 
-    width: 48.82117%;
+    width: 31.76157%;
     margin-top: 1.5em;
     margin-right: 2.35765%;
     padding: .5em;
@@ -889,6 +889,59 @@ section.register img
 .bar.sponsors ul.sponsors li a img
 {
     width: 100%;
+}
+.main.sponsors
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-top: 2em;
+    margin-right: 2.35765%;
+}
+.main.sponsors:last-child
+{
+    margin-right: 0;
+}
+.main.sponsors h1
+{
+    font-size: 2em;
+    font-weight: bold;
+
+    margin-bottom: .75em;
+}
+.main.sponsors ul.sponsors li
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+
+    text-align: center;
+}
+.main.sponsors ul.sponsors li:last-child
+{
+    margin-right: 0;
+}
+.main.sponsors ul.sponsors li:nth-child(3n)
+{
+    margin-right: 0;
+}
+.main.sponsors ul.sponsors li:nth-child(3n+1)
+{
+    clear: left;
+}
+.main.sponsors ul.sponsors li a
+{
+    display: inline-block;
+
+    width: 75%;
+}
+.main.sponsors ul.sponsors li a img
+{
+    width: 100%;
+    margin-bottom: 2em;
 }
 .centres
 {

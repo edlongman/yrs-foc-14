@@ -1,0 +1,24 @@
+.main.sponsors {
+	@include span-columns(12);
+	margin-top: 2em;
+	h1 {
+		font-weight: bold;
+		font-size: 2em;
+		margin-bottom: .75em;
+	}
+	ul.sponsors {
+		li {
+			@include span-columns(4);
+			@include omega(3n);
+			text-align: center;
+			a {
+				display: inline-block;
+				width: 75%;
+				img {
+					margin-bottom: 2em;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
