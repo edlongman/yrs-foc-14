@@ -1,0 +1,170 @@
+.weekend {
+	@include span-columns(12);
+	margin-top: 2em;
+	a {
+		color: $accent;
+	}
+	h1 {
+		font-weight: bold;
+		font-size: 2em;
+		margin-bottom: .75em;
+	}
+	h2 {
+		font-weight: bold;
+		font-size: 1.25em;
+		margin-top: 1em;
+		margin-bottom: .5em;
+	}
+	h3 {
+		font-weight: 700;
+		margin-top: 1em;
+	}
+	section {
+		@include span-columns(12);
+		margin-bottom: 2em;
+	}
+	figure {
+		margin: 1em 0;
+	}
+	figcaption {
+		color: #666;
+		font-style: italic;
+		margin: 0.5em 0;
+		text-align: center;
+	}
+	p.note {
+		border-left: 2px solid $accent;
+		color: #666;
+		font-style: italic;
+		padding-left: 0.5em;
+	}
+	.accomodation-text {
+		@include span-columns(4);
+	}
+	.accomodation-map {
+		@include span-columns(8);
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+	.schedule {
+		border-right: 1px solid #ddd;
+		width: 100%;
+		th, td {
+			padding: 0.5em;
+		}
+		thead th,
+		tbody td {
+			border-bottom: 2px solid $accent;
+		}
+		tbody th {
+			border-bottom: 1px solid #ddd;
+		}
+		td {
+			border-left: 1px solid #ddd;
+		}
+		td:first-child {
+			border-bottom: 1px solid #ddd;
+		}
+		thead th {
+			font-weight: bold;
+		}
+		.person, .organisation {
+			display: block;
+		}
+		.right {
+			display: none;
+		}
+		.organisation {
+			color: #666;
+		}
+	}
+	.friday-text {
+		@include span-columns(4);
+	}
+	.friday-schedule {
+		@include span-columns(8);
+		.schedule {
+			margin-top: -3em;
+		}
+	}
+	.saturday-text {
+		@include span-columns(12);
+	}
+	.saturday-activities {
+		@include span-columns(6);
+		.activity {
+			@include span-columns(4);
+			img {
+				border-radius: 200px;
+				display: block;
+				margin-top: -0.5em;
+				max-width: 100%;
+			}
+		}
+	}
+	.saturday-schedule {
+		@include span-columns(12);
+		.schedule {
+			td {
+				width: 16%;
+				&:first-child {
+					width: 4%;
+				}
+			}
+		}
+	}
+	.saturdaynight {
+		@include span-columns(6);
+		.schedule {
+			th {
+				width: 15%;
+			}
+			td {
+				border-color: #fff;
+				padding: 0;
+			}
+			a {
+				background: -webkit-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0));
+				background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0));
+				display: block;
+				padding: 0.5em;
+				text-shadow: 0 0 3px rgba(0,0,0,0.2);
+			}
+		}
+		.thevirusempire,
+		.j3wel,
+		.twoxaa,
+		.pixelh8 {
+			background-size: 100%;
+			color: #fff;
+			a {
+				color: #fff;
+			}
+		}
+		.thevirusempire {
+			background-image: url('/img/weekend/thevirusempire.jpg');
+		}
+		.j3wel {
+			background-image: url('/img/weekend/j3wel.jpg');
+		}
+		.twoxaa {
+			background-image: url('/img/weekend/2xaa.jpg');
+		}
+		.pixelh8 {
+			background-image: url('/img/weekend/pixelh8.jpg');
+		}
+	}
+	.sunday-text {
+		@include span-columns(4);
+	}
+	.sunday-image {
+		@include span-columns(8);
+		img {
+			display: block;
+			margin-top: -1em;
+			max-width: 100%;
+		}
+	}
+}

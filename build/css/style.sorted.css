@@ -943,6 +943,333 @@ section.register img
     width: 100%;
     margin-bottom: 2em;
 }
+.weekend
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-top: 2em;
+    margin-right: 2.35765%;
+}
+.weekend:last-child
+{
+    margin-right: 0;
+}
+.weekend a
+{
+    color: #db2628;
+}
+.weekend h1
+{
+    font-size: 2em;
+    font-weight: bold;
+
+    margin-bottom: .75em;
+}
+.weekend h2
+{
+    font-size: 1.25em;
+    font-weight: bold;
+
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+.weekend h3
+{
+    font-weight: 700;
+
+    margin-top: 1em;
+}
+.weekend section
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-right: 2.35765%;
+    margin-bottom: 2em;
+}
+.weekend section:last-child
+{
+    margin-right: 0;
+}
+.weekend figure
+{
+    margin: 1em 0;
+}
+.weekend figcaption
+{
+    font-style: italic;
+
+    margin: .5em 0;
+
+    text-align: center;
+
+    color: #666;
+}
+.weekend p.note
+{
+    font-style: italic;
+
+    padding-left: .5em;
+
+    color: #666;
+    border-left: 2px solid #db2628;
+}
+.weekend .accomodation-text
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+}
+.weekend .accomodation-text:last-child
+{
+    margin-right: 0;
+}
+.weekend .accomodation-map
+{
+    display: block;
+    float: left;
+
+    width: 65.88078%;
+    margin-right: 2.35765%;
+}
+.weekend .accomodation-map:last-child
+{
+    margin-right: 0;
+}
+.weekend .accomodation-map img
+{
+    display: block;
+
+    width: 100%;
+}
+.weekend .schedule
+{
+    width: 100%;
+
+    border-right: 1px solid #ddd;
+}
+.weekend .schedule th,.weekend .schedule td
+{
+    padding: .5em;
+}
+.weekend .schedule thead th,.weekend .schedule tbody td
+{
+    border-bottom: 2px solid #db2628;
+}
+.weekend .schedule tbody th
+{
+    border-bottom: 1px solid #ddd;
+}
+.weekend .schedule td
+{
+    border-left: 1px solid #ddd;
+}
+.weekend .schedule td:first-child
+{
+    border-bottom: 1px solid #ddd;
+}
+.weekend .schedule thead th
+{
+    font-weight: bold;
+}
+.weekend .schedule .person,.weekend .schedule .organisation
+{
+    display: block;
+}
+.weekend .schedule .right
+{
+    display: none;
+}
+.weekend .schedule .organisation
+{
+    color: #666;
+}
+.weekend .friday-text
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+}
+.weekend .friday-text:last-child
+{
+    margin-right: 0;
+}
+.weekend .friday-schedule
+{
+    display: block;
+    float: left;
+
+    width: 65.88078%;
+    margin-right: 2.35765%;
+}
+.weekend .friday-schedule:last-child
+{
+    margin-right: 0;
+}
+.weekend .friday-schedule .schedule
+{
+    margin-top: -3em;
+}
+.weekend .saturday-text
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-right: 2.35765%;
+}
+.weekend .saturday-text:last-child
+{
+    margin-right: 0;
+}
+.weekend .saturday-activities
+{
+    display: block;
+    float: left;
+
+    width: 48.82117%;
+    margin-right: 2.35765%;
+}
+.weekend .saturday-activities:last-child
+{
+    margin-right: 0;
+}
+.weekend .saturday-activities .activity
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+}
+.weekend .saturday-activities .activity:last-child
+{
+    margin-right: 0;
+}
+.weekend .saturday-activities .activity img
+{
+    display: block;
+
+    max-width: 100%;
+    margin-top: -.5em;
+
+    border-radius: 200px;
+}
+.weekend .saturday-schedule
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-right: 2.35765%;
+}
+.weekend .saturday-schedule:last-child
+{
+    margin-right: 0;
+}
+.weekend .saturday-schedule .schedule td
+{
+    width: 16%;
+}
+.weekend .saturday-schedule .schedule td:first-child
+{
+    width: 4%;
+}
+.weekend .saturdaynight
+{
+    display: block;
+    float: left;
+
+    width: 48.82117%;
+    margin-right: 2.35765%;
+}
+.weekend .saturdaynight:last-child
+{
+    margin-right: 0;
+}
+.weekend .saturdaynight .schedule th
+{
+    width: 15%;
+}
+.weekend .saturdaynight .schedule td
+{
+    padding: 0;
+
+    border-color: #fff;
+}
+.weekend .saturdaynight .schedule a
+{
+    display: block;
+
+    padding: .5em;
+
+    background: -webkit-linear-gradient(left, rgba(0,0,0,.5), transparent);
+    background: linear,to right,rgba(0,0,0,.5),transparent;
+    text-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+.weekend .saturdaynight .thevirusempire,.weekend .saturdaynight .j3wel,.weekend .saturdaynight .twoxaa,.weekend .saturdaynight .pixelh8
+{
+    color: #fff;
+    background-size: 100%;
+}
+.weekend .saturdaynight .thevirusempire a,.weekend .saturdaynight .j3wel a,.weekend .saturdaynight .twoxaa a,.weekend .saturdaynight .pixelh8 a
+{
+    color: #fff;
+}
+.weekend .saturdaynight .thevirusempire
+{
+    background-image: url('/img/weekend/thevirusempire.jpg');
+}
+.weekend .saturdaynight .j3wel
+{
+    background-image: url('/img/weekend/j3wel.jpg');
+}
+.weekend .saturdaynight .twoxaa
+{
+    background-image: url('/img/weekend/2xaa.jpg');
+}
+.weekend .saturdaynight .pixelh8
+{
+    background-image: url('/img/weekend/pixelh8.jpg');
+}
+.weekend .sunday-text
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+}
+.weekend .sunday-text:last-child
+{
+    margin-right: 0;
+}
+.weekend .sunday-image
+{
+    display: block;
+    float: left;
+
+    width: 65.88078%;
+    margin-right: 2.35765%;
+}
+.weekend .sunday-image:last-child
+{
+    margin-right: 0;
+}
+.weekend .sunday-image img
+{
+    display: block;
+
+    max-width: 100%;
+    margin-top: -1em;
+}
 .centres
 {
     margin-top: 2em;
@@ -1362,6 +1689,200 @@ section.register img
     .bar.sponsors ul.sponsors li:nth-child(2n)
     {
         margin-left: 8.5298%;
+    }
+    .weekend .accomodation-text,.weekend .accomodation-map
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .weekend .accomodation-text:last-child,.weekend .accomodation-map:last-child
+    {
+        margin-right: 0;
+    }
+    .weekend .friday-text,.weekend .friday-schedule
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .weekend .friday-text:last-child,.weekend .friday-schedule:last-child
+    {
+        margin-right: 0;
+    }
+    .weekend .friday-schedule
+    {
+        font-size: .8em;
+    }
+    .weekend .friday-schedule .schedule
+    {
+        margin-top: 0;
+    }
+    .weekend .friday-schedule .schedule table,.weekend .friday-schedule .schedule thead,.weekend .friday-schedule .schedule tbody,.weekend .friday-schedule .schedule tr,.weekend .friday-schedule .schedule th,.weekend .friday-schedule .schedule td
+    {
+        display: block;
+
+        width: 100%;
+    }
+    .weekend .friday-schedule .schedule tbody
+    {
+        border-top: 2px solid #db2628;
+    }
+    .weekend .friday-schedule .schedule thead
+    {
+        display: none;
+    }
+    .weekend .friday-schedule .schedule tbody th
+    {
+        display: none;
+    }
+    .weekend .friday-schedule .schedule tbody td
+    {
+        position: relative;
+
+        box-sizing: border-box;
+        width: 80%;
+        margin-right: 20%;
+
+        border-bottom: 1px solid #ddd;
+    }
+    .weekend .friday-schedule .schedule tbody td.vip
+    {
+        border-left: 2px solid #db2628;
+    }
+    .weekend .friday-schedule .schedule tbody td .right
+    {
+        position: absolute;
+        top: 0;
+        right: -25%;
+
+        display: block;
+
+        box-sizing: border-box;
+        width: 25%;
+        margin-right: -1px;
+        padding: .5em;
+
+        color: #666;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+    .weekend .friday-schedule .schedule tbody td .right span
+    {
+        display: block;
+    }
+    .weekend .saturday-text,.weekend .saturday-schedule,.weekend .saturday-activities,.weekend .saturdaynight
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .weekend .saturday-text:last-child,.weekend .saturday-schedule:last-child,.weekend .saturday-activities:last-child,.weekend .saturdaynight:last-child
+    {
+        margin-right: 0;
+    }
+    .weekend .saturday-schedule
+    {
+        font-size: .8em;
+    }
+    .weekend .saturday-schedule .schedule
+    {
+        margin-top: 0;
+    }
+    .weekend .saturday-schedule .schedule table,.weekend .saturday-schedule .schedule thead,.weekend .saturday-schedule .schedule tbody,.weekend .saturday-schedule .schedule tr,.weekend .saturday-schedule .schedule th,.weekend .saturday-schedule .schedule td
+    {
+        display: block;
+
+        width: 100%;
+    }
+    .weekend .saturday-schedule .schedule thead
+    {
+        display: none;
+    }
+    .weekend .saturday-schedule .schedule tbody
+    {
+        border-bottom: 1px solid #ddd;
+    }
+    .weekend .saturday-schedule .schedule tbody th
+    {
+        border-top: 1px solid #333;
+        border-bottom: 2px solid #db2628;
+        border-left: 1px solid #ddd;
+    }
+    .weekend .saturday-schedule .schedule tbody td
+    {
+        position: relative;
+
+        box-sizing: border-box;
+        width: 80%;
+        margin-left: 20%;
+
+        border-bottom: 1px solid #ddd;
+    }
+    .weekend .saturday-schedule .schedule tbody td:before
+    {
+        position: absolute;
+        top: 0;
+        left: -25%;
+
+        box-sizing: border-box;
+        width: 25%;
+        margin-left: -1px;
+        padding: .5em;
+
+        color: #666;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+    .weekend .saturday-schedule .schedule tr:nth-child(even) th,.weekend .saturday-schedule .schedule tr:nth-child(even) td,.weekend .saturday-schedule .schedule tr:nth-child(even) td:before
+    {
+        background: #f3f3f3;
+    }
+    .weekend .saturday-schedule .schedule tbody td:nth-of-type(1):before
+    {
+        content: 'Track 1';
+    }
+    .weekend .saturday-schedule .schedule tbody td:nth-of-type(2):before
+    {
+        content: 'Track 2';
+    }
+    .weekend .saturday-schedule .schedule tbody td:nth-of-type(3):before
+    {
+        content: 'Track 3';
+    }
+    .weekend .saturday-schedule .schedule tbody td:nth-of-type(4):before
+    {
+        content: 'Track 4';
+    }
+    .weekend .saturday-schedule .schedule tbody td:nth-of-type(5):before
+    {
+        content: 'Track 5';
+    }
+    .weekend .saturday-schedule .schedule tbody td:nth-of-type(6):before
+    {
+        content: 'Track 6';
+    }
+    .weekend .saturday-schedule .schedule tbody td:last-child,.weekend .saturday-schedule .schedule tbody td:last-child:before
+    {
+        border-bottom: none;
+    }
+    .weekend .sunday-text,.weekend .sunday-image
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .weekend .sunday-text:last-child,.weekend .sunday-image:last-child
+    {
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 500px)

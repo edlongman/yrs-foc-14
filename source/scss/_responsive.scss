@@ -107,12 +107,133 @@
 			}
 		}
 	}
+	.weekend {
+		.accomodation-text,
+		.accomodation-map {
+			@include span-columns(12);
+		}
+		.friday-text,
+		.friday-schedule {
+			@include span-columns(12);
+		}
+		.friday-schedule {
+			font-size: 0.8em;
+			.schedule {
+				margin-top: 0;
+				table, thead, tbody, tr, th, td {
+					display: block;
+					width: 100%;
+				}
+				tbody {
+					border-top: 2px solid #db2628;
+				}
+				thead {
+					display: none;
+				}
+				tbody th {
+					display: none;
+				}
+				tbody td {
+					border-bottom: 1px solid #ddd;
+					box-sizing: border-box;
+					margin-right: 20%;
+					position: relative;
+					width: 80%;
+				}
+				tbody td.vip {
+					border-left: 2px solid #db2628;
+				}
+				tbody td .right {
+					border-left: 1px solid #ddd;
+					border-bottom: 1px solid #ddd;
+					box-sizing: border-box;
+					color: #666;
+					display: block;
+					right: -25%;
+					margin-right: -1px;
+					padding: 0.5em;
+					position: absolute;
+					top: 0;
+					width: 25%;
+					span {
+						display: block;
+					}
+				}
+			}
+		}
+		.saturday-text,
+		.saturday-schedule,
+		.saturday-activities,
+		.saturdaynight {
+			@include span-columns(12);
+		}
+		.saturday-schedule {
+			font-size: 0.8em;
+			.schedule {
+				margin-top: 0;
+				table, thead, tbody, tr, th, td {
+					display: block;
+					width: 100%;
+				}
+				thead {
+					display: none;
+				}
+				tbody {
+					border-bottom: 1px solid #ddd;
+				}
+				tbody th {
+					border-left: 1px solid #ddd;
+					border-top: 1px solid #333;
+					border-bottom: 2px solid #db2628;
+				}
+				tbody td {
+					border-bottom: 1px solid #ddd;
+					box-sizing: border-box;
+					margin-left: 20%;
+					position: relative;
+					width: 80%;
+				}
+				tbody td:before {
+					border-left: 1px solid #ddd;
+					border-bottom: 1px solid #ddd;
+					box-sizing: border-box;
+					color: #666;
+					left: -25%;
+					margin-left: -1px;
+					padding: 0.5em;
+					position: absolute;
+					top: 0;
+					width: 25%;
+				}
+				tr:nth-child(even) th,
+				tr:nth-child(even) td,
+				tr:nth-child(even) td:before {
+					background: #f3f3f3;
+				}
+				tbody td:nth-of-type(1):before { content: "Track 1" }
+				tbody td:nth-of-type(2):before { content: "Track 2" }
+				tbody td:nth-of-type(3):before { content: "Track 3" }
+				tbody td:nth-of-type(4):before { content: "Track 4" }
+				tbody td:nth-of-type(5):before { content: "Track 5" }
+				tbody td:nth-of-type(6):before { content: "Track 6" }
+				tbody td:last-child,
+				tbody td:last-child:before {
+					border-bottom: none;
+				}
+			}
+		}
+		.sunday-text,
+		.sunday-image {
+			@include span-columns(12);
+		}
+	}
 }
 
 @media screen and (max-width: 500px) {
 	.media .images, .media .videos {
 		li {
-			@include span-columns(12);img {
+			@include span-columns(12);
+			img {
 				height: 300px;
 			}
 		}

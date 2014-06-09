@@ -1,0 +1,278 @@
+extends partials/_partials
+
+block content
+	.weekend
+		h1 The Festival Weekend
+		section
+			h2 Accommodation
+			.accomodation-text
+				p Sleeping areas will be divided based on age and will be "indoor camping" style (on the floor with your own pillow and sleeping bags). We will have several large open rooms available for each sleeping room category. The rooms will be mixed gender and we will have DBS checked staff monitoring the rooms. All sleeping areas are free of charge and are located in the Roland Levinsky building.
+				p Sleeping room categories:
+				ul
+					li 13 yrs old and under, with parents
+					li 14–17 not accompanied by parents
+					li 18+ not accompanied by parents (centre leads and mentors included)
+			figure.accomodation-map
+				a(href="img/weekend/starred-campus-map.jpg", target="_blank")
+					img(src="img/weekend/starred-campus-map-cropped.jpg")
+				figcaption A map of the Plymouth campus, with The Roland Levinsky building indicated by the red star.
+		section
+			h2 Friday
+			.friday-text
+				p Sometime on the Friday, you will be arriving at Plymouth and later that night, we'll kick off the weekend with a variety of specialists giving talks on topics such as: coding, 3D printing, physics, entrepreneurship, storytelling and what you can do after YRS.
+				p Otherwise, this will be your chance to get to know all the other centres and see what everyone else has been working on. Food will be provided throughout to keep you going as you race to finish the last bits of your project!
+			.friday-schedule
+				figure
+					table.schedule
+						thead
+							tr
+								th 
+								th Church
+								th Space 1
+								th Space 2
+								th Space 3
+						tbody
+							tr
+								th 7.30pm
+								td(rowspan="3").vip
+									span.person Avid Larizadeh
+									span.organisation Thomson Reuters
+									.right
+										span.time 7.30pm
+										span.location Church
+								td(rowspan="2")
+									span.person Leo Dearden
+									span.organisation RepRap
+									.right
+										span.time 7.30pm
+										span.location Space 1
+								td(rowspan="2")
+									span.person Saidah Nash-Carter
+									span.organisation Thomson Reuters
+									.right
+										span.time 7.30pm
+										span.location Space 2
+								td(rowspan="2")
+									span.person Matthew Applegate
+									span.organisation Rewired State
+									.right
+										span.time 7.30pm
+										span.location Space 3
+							tr
+								th 7.45pm
+							tr
+								th 8.00pm
+								td(rowspan="2")
+									span.person Ian Collier
+									span.organisation STFC
+									.right
+										span.time 8.00pm
+										span.location Space 1
+								td(rowspan="2")
+									span.person To be confirmed
+									.right
+										span.time 8.00pm
+										span.location Space 2
+								td(rowspan="2")
+									span.person To be confirmed
+									span.organisation Google
+									.right
+										span.time 8.00pm
+										span.location Space 3
+							tr
+								th 8.15pm
+								td(rowspan="3").vip
+									span.person Yoni Bloch
+									span.organisation Interlude.fm
+									.right
+										span.time 8.15pm
+										span.location Church
+							tr
+								th 8.30pm
+								td(rowspan="2")
+									span.person To be confirmed
+									span.organisation Microsoft
+									.right
+										span.time 8.30pm
+										span.location Space 1
+								td(rowspan="2")
+									span.person Adam Afriye
+									span.organisation Member of Parliament
+									.right
+										span.time 8.30pm
+										span.location Space 2
+								td(rowspan="2")
+									span.person Ed Saperia
+									span.organisation Wikimania London
+									.right
+										span.time 8.30pm
+										span.location Space 3
+							tr
+								th 8.45pm
+							tr
+								th 9.00pm
+								td(rowspan="3").vip
+									span.person George the Poet
+									span.organisation WITHWHO
+									.right
+										span.time 9.00pm
+										span.location Church
+								td(rowspan="2")
+									span.person Ben Nunney
+									span.organisation Twilio
+									.right
+										span.time 9.00pm
+										span.location Space 1
+								td(rowspan="2")
+									span.person To be confirmed
+									span.organisation Maker's Academy
+									.right
+										span.time 9.00pm
+										span.location Space 2
+								td(rowspan="2")
+									span.person To be confirmed
+									span.organisation Thinkspace
+									.right
+										span.time 9.00pm
+										span.location Space 3
+							tr
+								th 9.15pm
+							tr
+								th 9.30pm
+				figcaption The schedule of speakers we have planned for the Friday evening.
+		section
+			h2 Saturday
+			div
+				.saturday-text
+					p You will need to make sure your presentation is ready and that your project is fully working for the presentation to the first set of judges! Rehearse it in the hours before your slot and make sure you have the presentation on-screen, ready to go when its your turn. We will release the schedule during the Festival of Code week.
+			//- .saturday-schedule
+			//- 	figure
+			//- 		h3 Presentation Schedule
+			//- 		table.schedule
+			//- 			thead
+			//- 				tr
+			//- 					th 
+			//- 					th Track 1
+			//- 					th Track 2
+			//- 					th Track 3
+			//- 					th Track 4
+			//- 					th Track 5
+			//- 					th Track 6
+			//- 			tbody
+			//- 				tr
+			//- 					th 12.00pm
+			//- 					td Metaswitch Networks
+			//- 					td St Cuthberts
+			//- 					td Friends of the Earth Printworks
+			//- 					td The National Museum of Computing
+			//- 					td Bright Future Software
+			//- 					td Queen Mary University of London
+			//- 				tr
+			//- 					th 12.15pm
+			//- 					td Raspberry Pi Foundation
+			//- 					td Eduserv
+			//- 					td Aberystwyth University
+			//- 					td Solent Cathedral Innovation
+			//- 					td TalkTalk - Irlam
+			//- 					td TalkTalk - London
+			//- 				tr
+			//- 					th 12.30pm
+			//- 					td comparethemarket
+			//- 					td Met Office
+			//- 					td Super Thinkers
+			//- 					td Reading
+			//- 					td STFC Daresbury Laboratory
+			//- 					td TechHub Swansea
+			//- 				tr
+			//- 					th 12.45pm
+			//- 					td The Studio
+			//- 					td SwiftKey
+			//- 					td Oldham College
+			//- 					td LNK unit
+			//- 					td Monmouthshire County Council
+			//- 					td University of Dundee
+			//- 				tr
+			//- 					th 13.00pm
+			//- 					td Oasis Acadmey Coulsdon
+			//- 					td Birmingham City University
+			//- 					td Government Digital Service
+			//- 					td Zone
+			//- 					td Pearson
+			//- 					td Knowle West Media Centre
+			//- 				tr
+			//- 					th 13.15pm
+			//- 					td BBC Birmingham
+			//- 					td Exa Networks
+			//- 					td Tech Resort Eastbourne
+			//- 					td Freerange. Carlisle
+			//- 					td Red Gate Software
+			//- 					td American Express Community Stadium
+			//- 				tr
+			//- 					th 13.30pm
+			//- 					td Cyber-Duck
+			//- 					td University of Aberdeen
+			//- 					td i-DAT
+			//- 					td One KX
+			//- 					td STFC RAL
+			//- 					td Nottingham Hackspace
+			//- 				tr
+			//- 					th 13.45pm
+			//- 					td School of Informatics, University of Edinburgh
+			//- 					td Nottingham
+			//- 					td Nottingham
+			//- 					td Nottingham
+			//- 					td Nottingham
+			//- 					td Nottingham
+			//- 		figcaption The schedule of groups presenting on the Saturday, grouped by judging track.
+			div
+				.saturday-activities
+					h3 Daytime Activities
+					p Throughout the day, we'll have all sorts of other fun things going on — so when you're done presenting, feel free to take a break! There'll be plenty of food as well as skateboarding, bubble football, a graffiti wall, photobooth, and everyone else to make friends with.
+					figure.activity
+						img(src="img/weekend/bubblefootball.jpg")
+						figcaption Bubble football
+					figure.activity
+						img(src="img/weekend/graffiti.jpg")
+						figcaption Graffiti wall
+					figure.activity
+						img(src="img/weekend/skateboarding.jpg")
+						figcaption Skateboarding
+				.saturdaynight
+					h3 Evening Performances
+					p On Saturday night, we're bringing in the best talent we could find to play you a range of chiptune and electronic music!
+					figure
+						table.schedule
+							tbody
+								tr
+									th 7.15pm
+									td(colspan="3") Intro
+								tr
+									th 7.20pm
+									td.thevirusempire
+										a(href="http://thevirusempire.bandcamp.com/album/strix") The Virus Empire
+								tr
+									th 8.00pm
+									td.j3wel
+										a(href="https://soundcloud.com/j3wel") J3wel
+								tr
+									th 8.40pm
+									td To be confirmed
+								tr
+									th 9.15pm
+									td.twoxaa
+										a(href="http://brkbrkbrk.com") 2xAA
+								tr
+									th 9.50pm
+									td.pixelh8
+										a(href="http://www.pixelh8.co.uk") Pixelh8
+						figcaption 
+		section
+			h2 Sunday
+			.sunday-text
+				p The grand finale takes places on the Sunday morning at the nearby Plymouth Pavilions, which is a short walk from the university. Those who've made it through to present to the finale judges should be rehearsing their presentation and adding those last-minute touches to their projects.
+				p.note Please note that parking at the Pavilions is limited, so please carpool together if possible! More information can be found in <a href="/pavilions-parking.pdf">this PDF</a>.
+				p Immediately after the finale, the coaches will be ready to return you back to your centre, if you bought a ticket via us.
+			.sunday-image
+				figure
+					img(src="img/weekend/presenting.jpg")
+					figcaption Be sure to prepare your presentations well for the finale!
