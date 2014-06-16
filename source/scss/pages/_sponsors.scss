@@ -8,8 +8,8 @@
 	}
 	ul.sponsors {
 		li {
-			@include span-columns(4);
-			@include omega(3n);
+			@include span-columns(3);
+			@include omega(4n);
 			text-align: center;
 			a {
 				display: inline-block;
@@ -18,6 +18,26 @@
 					margin-bottom: 2em;
 					width: 100%;
 				}
+			}
+		}
+	}
+	.top {
+		@include span-columns(6);
+		ul.sponsors {
+			li {	
+				&.large{
+					@include span-columns(12);
+				}
+			}
+		}
+	}
+	.right {
+		@include span-columns(6);
+		@include omega;
+		ul.sponsors {
+			li {
+				@include span-columns(6);
+				@include omega(2n);
 			}
 		}
 	}
