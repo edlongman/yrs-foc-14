@@ -943,60 +943,39 @@ section.register img
     width: 100%;
     margin-bottom: 2em;
 }
-.main.sponsors .top
+.main.sponsors .top ul.sponsors li
 {
     display: block;
     float: left;
 
-    width: 48.82117%;
+    width: 31.76157%;
     margin-right: 2.35765%;
 }
-.main.sponsors .top:last-child
+.main.sponsors .top ul.sponsors li:last-child
 {
     margin-right: 0;
 }
-.main.sponsors .top ul.sponsors li.large
+.main.sponsors .bottom
+{
+    margin-right: 0;
+}
+.main.sponsors .bottom ul.sponsors li
 {
     display: block;
     float: left;
 
-    width: 100%;
+    width: 23.23176%;
     margin-right: 2.35765%;
 }
-.main.sponsors .top ul.sponsors li.large:last-child
+.main.sponsors .bottom ul.sponsors li:last-child
 {
     margin-right: 0;
 }
-.main.sponsors .right
-{
-    display: block;
-    float: left;
-
-    width: 48.82117%;
-    margin-right: 2.35765%;
-    margin-right: 0;
-}
-.main.sponsors .right:last-child
+.main.sponsors .bottom ul.sponsors li:nth-child(4n)
 {
     margin-right: 0;
 }
-.main.sponsors .right ul.sponsors li
-{
-    display: block;
-    float: left;
-
-    width: 48.82117%;
-    margin-right: 2.35765%;
-}
-.main.sponsors .right ul.sponsors li:last-child
-{
-    margin-right: 0;
-}
-.main.sponsors .right ul.sponsors li:nth-child(2n)
-{
-    margin-right: 0;
-}
-.main.sponsors .right ul.sponsors li:nth-child(2n+1)
+.main.sponsors .bottom ul.sponsors li:nth-child(4n+1)
 {
     clear: left;
 }
