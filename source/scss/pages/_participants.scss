@@ -1,0 +1,9 @@
+.crest {
+	@include outer-container;
+	p {
+		@include span-columns(8);
+	}
+	img {
+		@include span-columns(4);
+	}
+}

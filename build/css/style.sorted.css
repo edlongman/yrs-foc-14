@@ -1363,6 +1363,48 @@ section.register img
     margin-top: -1165px;
     margin-left: -108px;
 }
+.crest
+{
+    max-width: 68em;
+    margin-right: auto;
+    margin-left: auto;
+
+    *zoom: 1;
+}
+.crest:before,.crest:after
+{
+    display: table;
+
+    content: ' ';
+}
+.crest:after
+{
+    clear: both;
+}
+.crest p
+{
+    display: block;
+    float: left;
+
+    width: 65.88078%;
+    margin-right: 2.35765%;
+}
+.crest p:last-child
+{
+    margin-right: 0;
+}
+.crest img
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+}
+.crest img:last-child
+{
+    margin-right: 0;
+}
 @media screen and (max-width: 1150px)
 {
     .wrapper
