@@ -106,7 +106,7 @@ header nav ul li
     display: block;
     float: left;
 
-    width: 9.15758%;
+    width: 7.87811%;
     margin-right: 2.35765%;
     padding: 1.5em 0;
 
@@ -125,7 +125,7 @@ header nav ul li.brand,header nav ul li.m-brand
     display: block;
     float: left;
 
-    width: 30.90859%;
+    width: 18.11388%;
     margin-right: 2.35765%;
     padding: 24px 0;
 
@@ -604,6 +604,10 @@ section.register img
 .venue .travel-overview h2,.venue iframe h2
 {
     font-weight: bold;
+}
+.venue .gocardless
+{
+    text-align: center;
 }
 .venue iframe
 {
