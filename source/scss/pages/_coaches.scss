@@ -1,0 +1,12 @@
+.coaches {
+	@include span-columns(12);
+	.gocardless {
+		text-align: center;
+	}
+	.centres {
+		li {
+			@include span-columns(3);
+			@include omega(4n);
+		}
+	}
+}

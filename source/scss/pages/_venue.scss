@@ -21,9 +21,6 @@
 			font-weight: bold;
 		}
 	}
-	.gocardless {
-		text-align: center;
-	}
 	iframe {
 		@extend .travel-overview;
 		@include omega;

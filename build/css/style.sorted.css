@@ -605,10 +605,6 @@ section.register img
 {
     font-weight: bold;
 }
-.venue .gocardless
-{
-    text-align: center;
-}
 .venue iframe
 {
     height: 505px;
@@ -1444,6 +1440,42 @@ section.register img
 .crest img:last-child
 {
     margin-right: 0;
+}
+.coaches
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-right: 2.35765%;
+}
+.coaches:last-child
+{
+    margin-right: 0;
+}
+.coaches .gocardless
+{
+    text-align: center;
+}
+.coaches .centres li
+{
+    display: block;
+    float: left;
+
+    width: 23.23176%;
+    margin-right: 2.35765%;
+}
+.coaches .centres li:last-child
+{
+    margin-right: 0;
+}
+.coaches .centres li:nth-child(4n)
+{
+    margin-right: 0;
+}
+.coaches .centres li:nth-child(4n+1)
+{
+    clear: left;
 }
 @media screen and (max-width: 1150px)
 {
