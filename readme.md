@@ -34,6 +34,7 @@ We are using two preprocessors - <a href="http://jade-lang.com/">Jade</a> for HT
 	|			+-- _partials.jade // Things that are on every page, such as the <head> and <header>
 	|		+-- centre-leads.jade
 	|		+-- centres.jade
+	|		+-- coaches.jade
 	|		+-- contact.jade
 	|		+-- index.jade
 	|		+-- international-participants.jade
@@ -42,7 +43,10 @@ We are using two preprocessors - <a href="http://jade-lang.com/">Jade</a> for HT
 	|		+-- parents.jade
 	|		+-- participants.jade
 	|		+-- resources.jade
+	|		+-- sponsors.jade
+	|		+-- thanks.jade
 	|		+-- venue.jade
+	|		+-- weekend.jade
 	|	+-- js/
 	|	+-- scss/
 	|		+-- pages/
@@ -63,12 +67,16 @@ We are using two preprocessors - <a href="http://jade-lang.com/">Jade</a> for HT
 	|				+-- _information.scss // For all of the informational pages, which share styling
 	|				+-- _templates.scss // @import all other files in this directory, and the contents of the partials/ directory
 	|			+-- _centres.scss
+	|			+-- _coaches.scss
 	|			+-- _contact.scss
 	|			+-- _index.scss
 	|			+-- _media.scss
 	|			+-- _pages.scss
+	|			+-- _participants.scss
 	|			+-- _resources.scss
+	|			+-- _sponsors.scss
 	|			+-- _venue.scss
+	|			+-- _weekend.scss
 	|		+-- style.scss // @import all other files in this directory, and the contents of the pages/ directory 
 	|		+-- _responsive.scss // All responsive styling
 
@@ -77,5 +85,4 @@ We are using two preprocessors - <a href="http://jade-lang.com/">Jade</a> for HT
 * Remove most page-specific .scss files in favour of templates.
 * Grab data from existing back-end for the centres page instead of using an iframe.
 * Create loop on _index.scss for background image.
-* Fix Gruntfile to minify images from all directories. Currently, it'll only minify images that are in the root img/ directory, and nothing from the sub-directories. 
 * Make buttons play nice in old browsers.
