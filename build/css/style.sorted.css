@@ -1105,6 +1105,12 @@ section.register img
 {
     border-left: 1px solid #ddd;
 }
+.weekend .schedule td.tba
+{
+    font-style: italic;
+
+    color: #999;
+}
 .weekend .schedule td:first-child
 {
     border-bottom: 1px solid #ddd;

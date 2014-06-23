@@ -63,6 +63,10 @@
 		}
 		td {
 			border-left: 1px solid #ddd;
+			&.tba {
+				color: #999;
+				font-style: italic;
+			}
 		}
 		td:first-child {
 			border-bottom: 1px solid #ddd;
