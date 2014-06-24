@@ -21,7 +21,6 @@
 	}
 	section {
 		@include span-columns(12);
-		margin-bottom: 2em;
 	}
 	figure {
 		margin: 1em 0;
@@ -38,6 +37,12 @@
 		font-style: italic;
 		padding-left: 0.5em;
 	}
+	.plymouth {
+		@include span-columns(12);
+		height: 200px;
+		background: url(../img/plymouth.jpg);
+		background-position: 0 -50px;
+	}
 	.accomodation-text {
 		@include span-columns(4);
 	}
@@ -46,6 +51,13 @@
 		img {
 			display: block;
 			width: 100%;
+		}
+	}
+	.methods {
+		@include span-columns(12);
+		.travel-method {
+			@include span-columns(3);
+			@include omega(4n);
 		}
 	}
 	.schedule {
