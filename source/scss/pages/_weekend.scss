@@ -72,6 +72,7 @@
 		}
 		tbody th {
 			border-bottom: 1px solid #ddd;
+			color: #777;
 		}
 		td {
 			border-left: 1px solid #ddd;
@@ -96,6 +97,26 @@
 			color: #666;
 		}
 	}
+	.dayschedule {
+		width: 100%;
+		th, td {
+			padding: 0.25em 0.5em;
+		}
+		tbody th {
+			border-right: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+			color: #777;
+			text-align: left;
+		}
+		tbody td {
+			border-bottom: 1px solid #ddd;
+		}
+		tbody tr:last-child {
+			td, th {
+				border-bottom: none;
+			}
+		}
+	}
 	.friday-text {
 		@include span-columns(4);
 	}
@@ -108,8 +129,11 @@
 	.saturday-text {
 		@include span-columns(12);
 	}
+	.saturday-dayschedule {
+		@include span-columns(4);
+	}
 	.saturday-activities {
-		@include span-columns(6);
+		@include span-columns(4);
 		.activity {
 			@include span-columns(4);
 			img {
@@ -132,7 +156,7 @@
 		}
 	}
 	.saturdaynight {
-		@include span-columns(6);
+		@include span-columns(4);
 		.schedule {
 			th {
 				width: 15%;
@@ -173,10 +197,13 @@
 		}
 	}
 	.sunday-text {
-		@include span-columns(4);
+		@include span-columns(5);
+	}
+	.sunday-dayschedule {
+		@include span-columns(5);
 	}
 	.sunday-image {
-		@include span-columns(8);
+		@include span-columns(2);
 		img {
 			display: block;
 			margin-top: -1em;

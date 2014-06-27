@@ -1130,6 +1130,7 @@ section.register img
 }
 .weekend .schedule tbody th
 {
+    color: #777;
     border-bottom: 1px solid #ddd;
 }
 .weekend .schedule td
@@ -1161,6 +1162,30 @@ section.register img
 .weekend .schedule .organisation
 {
     color: #666;
+}
+.weekend .dayschedule
+{
+    width: 100%;
+}
+.weekend .dayschedule th,.weekend .dayschedule td
+{
+    padding: .25em .5em;
+}
+.weekend .dayschedule tbody th
+{
+    text-align: left;
+
+    color: #777;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.weekend .dayschedule tbody td
+{
+    border-bottom: 1px solid #ddd;
+}
+.weekend .dayschedule tbody tr:last-child td,.weekend .dayschedule tbody tr:last-child th
+{
+    border-bottom: none;
 }
 .weekend .friday-text
 {
@@ -1202,12 +1227,24 @@ section.register img
 {
     margin-right: 0;
 }
+.weekend .saturday-dayschedule
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+}
+.weekend .saturday-dayschedule:last-child
+{
+    margin-right: 0;
+}
 .weekend .saturday-activities
 {
     display: block;
     float: left;
 
-    width: 48.82117%;
+    width: 31.76157%;
     margin-right: 2.35765%;
 }
 .weekend .saturday-activities:last-child
@@ -1260,7 +1297,7 @@ section.register img
     display: block;
     float: left;
 
-    width: 48.82117%;
+    width: 31.76157%;
     margin-right: 2.35765%;
 }
 .weekend .saturdaynight:last-child
@@ -1317,10 +1354,22 @@ section.register img
     display: block;
     float: left;
 
-    width: 31.76157%;
+    width: 40.29137%;
     margin-right: 2.35765%;
 }
 .weekend .sunday-text:last-child
+{
+    margin-right: 0;
+}
+.weekend .sunday-dayschedule
+{
+    display: block;
+    float: left;
+
+    width: 40.29137%;
+    margin-right: 2.35765%;
+}
+.weekend .sunday-dayschedule:last-child
 {
     margin-right: 0;
 }
@@ -1329,7 +1378,7 @@ section.register img
     display: block;
     float: left;
 
-    width: 65.88078%;
+    width: 14.70196%;
     margin-right: 2.35765%;
 }
 .weekend .sunday-image:last-child
@@ -1849,6 +1898,18 @@ section.register img
     {
         margin-right: 0;
     }
+    .weekend .methods .travel-method
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .weekend .methods .travel-method:last-child
+    {
+        margin-right: 0;
+    }
     .weekend .friday-text,.weekend .friday-schedule
     {
         display: block;
@@ -1893,6 +1954,7 @@ section.register img
 
         box-sizing: border-box;
         width: 80%;
+        min-height: 3.555em;
         margin-right: 20%;
 
         border-bottom: 1px solid #ddd;
@@ -1922,7 +1984,7 @@ section.register img
     {
         display: block;
     }
-    .weekend .saturday-text,.weekend .saturday-schedule,.weekend .saturday-activities,.weekend .saturdaynight
+    .weekend .saturday-text,.weekend .saturday-schedule,.weekend .saturday-dayschedule,.weekend .saturday-activities,.weekend .saturdaynight
     {
         display: block;
         float: left;
@@ -1930,7 +1992,7 @@ section.register img
         width: 100%;
         margin-right: 2.35765%;
     }
-    .weekend .saturday-text:last-child,.weekend .saturday-schedule:last-child,.weekend .saturday-activities:last-child,.weekend .saturdaynight:last-child
+    .weekend .saturday-text:last-child,.weekend .saturday-schedule:last-child,.weekend .saturday-dayschedule:last-child,.weekend .saturday-activities:last-child,.weekend .saturdaynight:last-child
     {
         margin-right: 0;
     }
@@ -2019,7 +2081,7 @@ section.register img
     {
         border-bottom: none;
     }
-    .weekend .sunday-text,.weekend .sunday-image
+    .weekend .sunday-text,.weekend .sunday-dayschedule
     {
         display: block;
         float: left;
@@ -2027,9 +2089,13 @@ section.register img
         width: 100%;
         margin-right: 2.35765%;
     }
-    .weekend .sunday-text:last-child,.weekend .sunday-image:last-child
+    .weekend .sunday-text:last-child,.weekend .sunday-dayschedule:last-child
     {
         margin-right: 0;
+    }
+    .weekend .sunday-image
+    {
+        display: none;
     }
 }
 @media screen and (max-width: 500px)

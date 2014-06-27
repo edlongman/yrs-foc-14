@@ -114,6 +114,11 @@
 		.accomodation-map {
 			@include span-columns(12);
 		}
+		.methods {
+			.travel-method {
+				@include span-columns(12);
+			}
+		}
 		.friday-text,
 		.friday-schedule {
 			@include span-columns(12);
@@ -139,6 +144,7 @@
 					border-bottom: 1px solid #ddd;
 					box-sizing: border-box;
 					margin-right: 20%;
+					min-height: 3.555em;
 					position: relative;
 					width: 80%;
 				}
@@ -165,6 +171,7 @@
 		}
 		.saturday-text,
 		.saturday-schedule,
+		.saturday-dayschedule,
 		.saturday-activities,
 		.saturdaynight {
 			@include span-columns(12);
@@ -225,8 +232,11 @@
 			}
 		}
 		.sunday-text,
-		.sunday-image {
+		.sunday-dayschedule {
 			@include span-columns(12);
+		}
+		.sunday-image {
+			display: none;
 		}
 	}
 }
