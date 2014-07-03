@@ -239,6 +239,12 @@
 			display: none;
 		}
 	}
+	.coaches {
+		.centres {
+			-moz-column-count: 1;
+			-webkit-column-count: 1;
+		}
+	}
 }
 
 @media screen and (max-width: 500px) {

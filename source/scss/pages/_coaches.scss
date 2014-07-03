@@ -4,9 +4,12 @@
 		text-align: center;
 	}
 	.centres {
+       -moz-column-count: 4;
+       -moz-column-gap: 1em;
+       -webkit-column-count: 4;
+       -webkit-column-gap: 1em;
 		li {
-			@include span-columns(3);
-			@include omega(4n);
+			display: block;
 		}
 	}
 }

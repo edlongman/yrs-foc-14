@@ -1543,25 +1543,16 @@ section.register img
 {
     text-align: center;
 }
+.coaches .centres
+{
+       -moz-column-count: 4;
+       -moz-column-gap: 1em;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 1em;
+}
 .coaches .centres li
 {
     display: block;
-    float: left;
-
-    width: 23.23176%;
-    margin-right: 2.35765%;
-}
-.coaches .centres li:last-child
-{
-    margin-right: 0;
-}
-.coaches .centres li:nth-child(4n)
-{
-    margin-right: 0;
-}
-.coaches .centres li:nth-child(4n+1)
-{
-    clear: left;
 }
 @media screen and (max-width: 1150px)
 {
@@ -2096,6 +2087,11 @@ section.register img
     .weekend .sunday-image
     {
         display: none;
+    }
+    .coaches .centres
+    {
+           -moz-column-count: 1;
+        -webkit-column-count: 1;
     }
 }
 @media screen and (max-width: 500px)
