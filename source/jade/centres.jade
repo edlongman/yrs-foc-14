@@ -1,7 +1,13 @@
 extends partials/_partials
 
 block content
-	.centres
+	.main.centres
 		h1 Centres
-		.frame-container
-			iframe(scrolling="no" src="https://youngrewiredstate.org/centres")
+		section
+			.text
+				p.
+					This is a map of all our available centres. Participants and mentors will be allocated to the centre nearest to their home unless they specify otherwise during registration. Centres are first come, first served, so if your closest centre is full you will be allocated to the next closest centre.
+				p.
+					There is no accommodation available during the week, only the weekend. While at your local centre, the venue chooses the timings and you will be here only during the day on Monday- Thursday. Once you register, your centre lead will be in touch soon to provide you with everything you need to know about your local centre. Then, on Friday everyone will travel to Plymouth for the weekend!
+			.frame-container
+				iframe(scrolling="no" src="https://youngrewiredstate.org/centres")

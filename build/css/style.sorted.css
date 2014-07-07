@@ -1394,7 +1394,16 @@ section.register img
 }
 .centres
 {
+    display: block;
+    float: left;
+
+    width: 100%;
     margin-top: 2em;
+    margin-right: 2.35765%;
+}
+.centres:last-child
+{
+    margin-right: 0;
 }
 .centres a
 {
@@ -1471,18 +1480,38 @@ section.register img
 {
     margin-right: 0;
 }
+.centres .text
+{
+    display: block;
+    float: left;
+
+    width: 23.23176%;
+    margin-right: 2.35765%;
+}
+.centres .text:last-child
+{
+    margin-right: 0;
+}
 .centres .frame-container
 {
+    display: block;
+    float: left;
     overflow: hidden;
 
+    width: 74.41059%;
     max-width: 750px;
-    margin: 15px auto;
+    margin-top: -.5em;
+    margin-right: 2.35765%;
+}
+.centres .frame-container:last-child
+{
+    margin-right: 0;
 }
 .centres iframe
 {
     width: 986px;
-    height: 1560px;
-    margin-top: -1165px;
+    height: 1580px;
+    margin-top: -1170px;
     margin-left: -108px;
 }
 .crest

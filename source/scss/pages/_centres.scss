@@ -1,4 +1,5 @@
 .centres {
+	@include span-columns(12);
 	margin-top: 2em;
 	a {
 		color: $accent;
@@ -45,15 +46,19 @@
 			}
 		}
 	}
+	.text {
+		@include span-columns(3);
+	}
 	.frame-container {
+		@include span-columns(9);
 		overflow: hidden;
+		margin-top: -0.5em;
 		max-width: 750px;
-		margin: 15px auto;
 	}
 	iframe {
 		width: 986px;
-		height: 1560px;
-		margin-top: -1165px;
+		height: 1580px;
+		margin-top: -1170px;
 		margin-left: -108px;
 	}
 }
