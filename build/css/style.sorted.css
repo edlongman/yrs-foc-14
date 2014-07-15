@@ -290,27 +290,6 @@ body
 {
     border-bottom: 0;
 }
-.main .register
-{
-    margin: 2em 0;
-}
-.main .register a
-{
-    font-size: 1.25em;
-
-    padding: .5em .75em;
-
-    color: white;
-    border: 1px solid #851617;
-    border-radius: .25em;
-    background-image: -webkit-linear-gradient( #db2628 0,#b11d1f 100%);
-    background-image:         linear-gradient( #db2628 0,#b11d1f 100%);
-}
-.main .register a:active
-{
-    background-color: #c72123;
-    background-image: none;
-}
 .main.resources section h3
 {
     font-size: 1.3em;
@@ -325,6 +304,27 @@ body
     margin-left: 1em;
 
     color: #666;
+}
+.register
+{
+    margin: 1em 0 2em;
+}
+.register a
+{
+    font-size: 1.25em;
+
+    padding: .5em .75em;
+
+    color: white;
+    border: 1px solid #851617;
+    border-radius: .25em;
+    background-image: -webkit-linear-gradient( #db2628 0,#b11d1f 100%);
+    background-image:         linear-gradient( #db2628 0,#b11d1f 100%);
+}
+.register a:active
+{
+    background-color: #c72123;
+    background-image: none;
 }
 html.n-1
 {
