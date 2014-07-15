@@ -896,25 +896,7 @@ section.register img
 }
 .main.sponsors ul.sponsors li
 {
-    display: block;
-    float: left;
-
-    width: 23.23176%;
-    margin-right: 2.35765%;
-
     text-align: center;
-}
-.main.sponsors ul.sponsors li:last-child
-{
-    margin-right: 0;
-}
-.main.sponsors ul.sponsors li:nth-child(4n)
-{
-    margin-right: 0;
-}
-.main.sponsors ul.sponsors li:nth-child(4n+1)
-{
-    clear: left;
 }
 .main.sponsors ul.sponsors li a
 {
@@ -938,6 +920,14 @@ section.register img
 .main.sponsors .top ul.sponsors li:last-child
 {
     margin-right: 0;
+}
+.main.sponsors .top ul.sponsors li:nth-child(3n)
+{
+    margin-right: 0;
+}
+.main.sponsors .top ul.sponsors li:nth-child(3n+1)
+{
+    clear: left;
 }
 .main.sponsors .bottom
 {
