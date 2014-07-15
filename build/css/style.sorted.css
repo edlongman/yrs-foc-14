@@ -1324,12 +1324,12 @@ section.register img
     background: linear,to right,rgba(0,0,0,.5),transparent;
     text-shadow: 0 0 3px rgba(0,0,0,.2);
 }
-.weekend .saturdaynight .thevirusempire,.weekend .saturdaynight .j3wel,.weekend .saturdaynight .twoxaa,.weekend .saturdaynight .pixelh8
+.weekend .saturdaynight .thevirusempire,.weekend .saturdaynight .j3wel,.weekend .saturdaynight .twoxaa,.weekend .saturdaynight .mizkai
 {
     color: #fff;
     background-size: 100%;
 }
-.weekend .saturdaynight .thevirusempire a,.weekend .saturdaynight .j3wel a,.weekend .saturdaynight .twoxaa a,.weekend .saturdaynight .pixelh8 a
+.weekend .saturdaynight .thevirusempire a,.weekend .saturdaynight .j3wel a,.weekend .saturdaynight .twoxaa a,.weekend .saturdaynight .mizkai a
 {
     color: #fff;
 }
@@ -1345,9 +1345,9 @@ section.register img
 {
     background-image: url('/img/weekend/2xaa.jpg');
 }
-.weekend .saturdaynight .pixelh8
+.weekend .saturdaynight .mizkai
 {
-    background-image: url('/img/weekend/pixelh8.jpg');
+    background-image: url('/img/weekend/mizkai.jpg');
 }
 .weekend .sunday-text
 {
