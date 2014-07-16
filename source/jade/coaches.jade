@@ -5,12 +5,17 @@ block content
 		h1 Coaches to Plymouth
 		section
 			p.
-				If your centre is within a rough 4.5 hour driving distance, we will book a coach for the centre to pick you up on Friday. To get a return seat, this will cost each person &pound;35. On Sunday, the coach will drive everyone from Plymouth back to their local centre. Seats are reserved for mentors, centre leads, kids, and guardians of kids 13 and under. If there is any additional space left over on the coach, we will let you know and will open up these seats to other family members and friends. Click the button below to book your ticket.
-			p.gocardless
-				a(href="https://dashboard.gocardless.com/api/template_plans/0N1S4NFQXG/paylink")
-					img(src="https://s3-eu-west-1.amazonaws.com/gocardless/images/public/buttons/updated/pay-with-gc-small.png",width="200",height="32")
-			p.
-				<em>Note:</em> If GoCardless does not work for you, please try <a href="https://payments.youngrewiredstate.org/coachpayment">this link</a> instead.
+				If your centre is within a rough 4.5 hour driving distance, we will book a coach for the centre to pick you up on Friday. To get a return seat, this will cost each person &pound;35. On Sunday, the coach will drive everyone from Plymouth back to their local centre. Seats are reserved for mentors, centre leads, kids, and guardians of kids 13 and under. If there is any additional space left over on the coach, we will let you know and will open up these seats to other family members and friends. Click one of the buttons below to book your ticket.
+		section.paymentoptions
+			.gocardless
+				p.optiondesc If you are paying by bank account
+				p
+					a(href="https://dashboard.gocardless.com/api/template_plans/0N1S4NFQXG/paylink")
+						img(src="https://s3-eu-west-1.amazonaws.com/gocardless/images/public/buttons/updated/pay-with-gc-small.png",width="200",height="32")
+			.stripe
+				p.optiondesc If you are paying by credit/debit card
+				p.
+					<a href="https://payments.youngrewiredstate.org/coachpayment">Pay by card</a>
 		section
 			h2 Elligible centres
 			p The following centres are elligible for coach travel booked through YRS:

@@ -1558,9 +1558,55 @@ section.register img
 {
     margin-right: 0;
 }
-.coaches .gocardless
+.coaches .paymentoptions
 {
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin: 2em 0;
+    margin-right: 2.35765%;
+}
+.coaches .paymentoptions:last-child
+{
+    margin-right: 0;
+}
+.coaches .gocardless,.coaches .stripe
+{
+    display: block;
+    float: left;
+
+    width: 48.82117%;
+    margin-right: 2.35765%;
+
     text-align: center;
+}
+.coaches .gocardless:last-child,.coaches .stripe:last-child
+{
+    margin-right: 0;
+}
+.coaches .gocardless .optiondesc,.coaches .stripe .optiondesc
+{
+    font-weight: bold;
+}
+.coaches .stripe a
+{
+    display: inline-block;
+
+    padding: .5em 1em;
+
+    text-align: center;
+
+    color: white;
+    border: 1px solid #851617;
+    border-radius: .25em;
+    background-image: -webkit-linear-gradient( #db2628 0,#b11d1f 100%);
+    background-image:         linear-gradient( #db2628 0,#b11d1f 100%);
+}
+.coaches .stripe a:active
+{
+    background-color: #c72123;
+    background-image: none;
 }
 .coaches .centres
 {
