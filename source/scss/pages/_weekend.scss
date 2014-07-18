@@ -157,6 +157,9 @@
 		@include span-columns(8);
 		.schedule {
 			margin-top: -3em;
+			td {
+				width: 33%;
+			}
 		}
 	}
 	.saturday-text {

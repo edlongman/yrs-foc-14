@@ -1269,6 +1269,10 @@ section.register img
 {
     margin-top: -3em;
 }
+.weekend .friday-schedule .schedule td
+{
+    width: 33%;
+}
 .weekend .saturday-text
 {
     display: block;
