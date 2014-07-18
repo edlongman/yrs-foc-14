@@ -109,9 +109,17 @@
 			}
 		}
 	}
+	.participants {
+		.whattobring ul li {
+			@include span-columns(12);
+		}
+	}
 	.weekend {
 		.accomodation-text,
 		.accomodation-map {
+			@include span-columns(12);
+		}
+		.whattobring ul li {
 			@include span-columns(12);
 		}
 		.methods {

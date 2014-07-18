@@ -1096,7 +1096,7 @@ section.register img
     margin-right: 2.35765%;
     margin-bottom: 2em;
     padding: 1em;
-    padding-right: 5em;
+    padding-right: 6em;
 
     background: #f5f5f5;
     background: -webkit-linear-gradient(left, #f0f0f0, rgba(240,240,240,0));
@@ -1568,7 +1568,7 @@ section.register img
     margin-top: -1170px;
     margin-left: -108px;
 }
-.main p.note
+.participants p.note
 {
     font-style: italic;
 
@@ -1577,7 +1577,7 @@ section.register img
     color: #666;
     border-left: 2px solid #db2628;
 }
-.main .crest
+.participants .crest
 {
     max-width: 68em;
     margin-right: auto;
@@ -1585,17 +1585,17 @@ section.register img
 
     *zoom: 1;
 }
-.main .crest:before,.main .crest:after
+.participants .crest:before,.participants .crest:after
 {
     display: table;
 
     content: ' ';
 }
-.main .crest:after
+.participants .crest:after
 {
     clear: both;
 }
-.main .crest p
+.participants .crest p
 {
     display: block;
     float: left;
@@ -1603,11 +1603,11 @@ section.register img
     width: 65.88078%;
     margin-right: 2.35765%;
 }
-.main .crest p:last-child
+.participants .crest p:last-child
 {
     margin-right: 0;
 }
-.main .crest img
+.participants .crest img
 {
     display: block;
     float: left;
@@ -1615,11 +1615,11 @@ section.register img
     width: 31.76157%;
     margin-right: 2.35765%;
 }
-.main .crest img:last-child
+.participants .crest img:last-child
 {
     margin-right: 0;
 }
-.main .whattobring ul
+.participants .whattobring ul
 {
     display: block;
     float: left;
@@ -1627,11 +1627,11 @@ section.register img
     width: 100%;
     margin-right: 2.35765%;
 }
-.main .whattobring ul:last-child
+.participants .whattobring ul:last-child
 {
     margin-right: 0;
 }
-.main .whattobring ul li
+.participants .whattobring ul li
 {
     position: relative;
 
@@ -1649,19 +1649,19 @@ section.register img
     background: -webkit-linear-gradient(left, #f0f0f0, rgba(240,240,240,0));
     background: linear,to right,#f0f0f0,rgba(240,240,240,0);
 }
-.main .whattobring ul li:last-child
+.participants .whattobring ul li:last-child
 {
     margin-right: 0;
 }
-.main .whattobring ul li:nth-child(2n)
+.participants .whattobring ul li:nth-child(2n)
 {
     margin-right: 0;
 }
-.main .whattobring ul li:nth-child(2n+1)
+.participants .whattobring ul li:nth-child(2n+1)
 {
     clear: left;
 }
-.main .whattobring ul li span
+.participants .whattobring ul li span
 {
     font-weight: normal;
     font-style: italic;
@@ -1670,7 +1670,7 @@ section.register img
 
     color: #777;
 }
-.main .whattobring ul li img
+.participants .whattobring ul li img
 {
     position: absolute;
     top: -.75em;
@@ -1679,7 +1679,7 @@ section.register img
     max-width: 6em;
     max-height: 6em;
 }
-.main .whattobring .note
+.participants .whattobring .note
 {
     clear: both;
 }
@@ -2079,6 +2079,18 @@ section.register img
     {
         margin-left: 8.5298%;
     }
+    .participants .whattobring ul li
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .participants .whattobring ul li:last-child
+    {
+        margin-right: 0;
+    }
     .weekend .accomodation-text,.weekend .accomodation-map
     {
         display: block;
@@ -2088,6 +2100,18 @@ section.register img
         margin-right: 2.35765%;
     }
     .weekend .accomodation-text:last-child,.weekend .accomodation-map:last-child
+    {
+        margin-right: 0;
+    }
+    .weekend .whattobring ul li
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .weekend .whattobring ul li:last-child
     {
         margin-right: 0;
     }
