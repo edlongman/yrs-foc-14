@@ -1,9 +1,50 @@
-.crest {
-	@include outer-container;
-	p {
-		@include span-columns(8);
+.main {
+	p.note {
+		border-left: 2px solid $accent;
+		color: #666;
+		font-style: italic;
+		padding-left: 0.5em;
 	}
-	img {
-		@include span-columns(4);
+	.crest {
+		@include outer-container;
+		p {
+			@include span-columns(8);
+		}
+		img {
+			@include span-columns(4);
+		}
+	}
+	.whattobring {
+		ul {
+			@include span-columns(12);
+			li {
+				@include span-columns(6);
+				@include omega(2n);
+				background: #f5f5f5;
+				background: -webkit-linear-gradient(left, rgba(240,240,240,1), rgba(240,240,240,0));
+				background: linear-gradient(to right, rgba(240,240,240,1), rgba(240,240,240,0));
+				margin-bottom: 2em;
+				min-height: 4.5em;
+				padding: 1em;
+				padding-right: 6em;
+				position: relative;
+				span {
+					color: #777;
+					display: inline;
+					font-style: italic;
+					font-weight: normal;
+				}
+				img {
+					max-height: 6em;
+					max-width: 6em;
+					position: absolute;
+					right: 0;
+					top: -0.75em;
+				}
+			}
+		}
+		.note {
+			clear: both;
+		}
 	}
 }

@@ -1568,7 +1568,16 @@ section.register img
     margin-top: -1170px;
     margin-left: -108px;
 }
-.crest
+.main p.note
+{
+    font-style: italic;
+
+    padding-left: .5em;
+
+    color: #666;
+    border-left: 2px solid #db2628;
+}
+.main .crest
 {
     max-width: 68em;
     margin-right: auto;
@@ -1576,17 +1585,17 @@ section.register img
 
     *zoom: 1;
 }
-.crest:before,.crest:after
+.main .crest:before,.main .crest:after
 {
     display: table;
 
     content: ' ';
 }
-.crest:after
+.main .crest:after
 {
     clear: both;
 }
-.crest p
+.main .crest p
 {
     display: block;
     float: left;
@@ -1594,11 +1603,11 @@ section.register img
     width: 65.88078%;
     margin-right: 2.35765%;
 }
-.crest p:last-child
+.main .crest p:last-child
 {
     margin-right: 0;
 }
-.crest img
+.main .crest img
 {
     display: block;
     float: left;
@@ -1606,9 +1615,73 @@ section.register img
     width: 31.76157%;
     margin-right: 2.35765%;
 }
-.crest img:last-child
+.main .crest img:last-child
 {
     margin-right: 0;
+}
+.main .whattobring ul
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-right: 2.35765%;
+}
+.main .whattobring ul:last-child
+{
+    margin-right: 0;
+}
+.main .whattobring ul li
+{
+    position: relative;
+
+    display: block;
+    float: left;
+
+    width: 48.82117%;
+    min-height: 4.5em;
+    margin-right: 2.35765%;
+    margin-bottom: 2em;
+    padding: 1em;
+    padding-right: 6em;
+
+    background: #f5f5f5;
+    background: -webkit-linear-gradient(left, #f0f0f0, rgba(240,240,240,0));
+    background: linear,to right,#f0f0f0,rgba(240,240,240,0);
+}
+.main .whattobring ul li:last-child
+{
+    margin-right: 0;
+}
+.main .whattobring ul li:nth-child(2n)
+{
+    margin-right: 0;
+}
+.main .whattobring ul li:nth-child(2n+1)
+{
+    clear: left;
+}
+.main .whattobring ul li span
+{
+    font-weight: normal;
+    font-style: italic;
+
+    display: inline;
+
+    color: #777;
+}
+.main .whattobring ul li img
+{
+    position: absolute;
+    top: -.75em;
+    right: 0;
+
+    max-width: 6em;
+    max-height: 6em;
+}
+.main .whattobring .note
+{
+    clear: both;
 }
 .coaches
 {
