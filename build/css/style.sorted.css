@@ -1136,6 +1136,53 @@ section.register img
 {
     clear: both;
 }
+.weekend .travel-text
+{
+    display: block;
+    float: left;
+
+    width: 65.88078%;
+    margin-right: 2.35765%;
+}
+.weekend .travel-text:last-child
+{
+    margin-right: 0;
+}
+.weekend .travel-addresses
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+    margin-right: 0;
+}
+.weekend .travel-addresses:last-child
+{
+    margin-right: 0;
+}
+.weekend .travel-address
+{
+    font-style: italic;
+
+    display: block;
+    float: left;
+
+    width: 48.82117%;
+    margin-right: 2.35765%;
+}
+.weekend .travel-address:last-child
+{
+    margin-right: 0;
+}
+.weekend .travel-address:nth-child(3n)
+{
+    margin-right: 0;
+}
+.weekend .travel-address:nth-child(3n+1)
+{
+    clear: left;
+}
 .weekend .methods
 {
     display: block;
