@@ -127,6 +127,10 @@
 				@include span-columns(12);
 			}
 		}
+		.travel-text,
+		.travel-addresses {
+			@include span-columns(12);
+		}
 		.friday-text,
 		.friday-schedule {
 			@include span-columns(12);

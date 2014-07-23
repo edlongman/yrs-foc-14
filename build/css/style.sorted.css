@@ -2238,6 +2238,18 @@ section.register img
     {
         margin-right: 0;
     }
+    .weekend .travel-text,.weekend .travel-addresses
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .weekend .travel-text:last-child,.weekend .travel-addresses:last-child
+    {
+        margin-right: 0;
+    }
     .weekend .friday-text,.weekend .friday-schedule
     {
         display: block;
