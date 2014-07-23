@@ -1040,7 +1040,7 @@ section.register img
     margin-right: 2.35765%;
 
     background: url(../img/plymouth.jpg);
-    background-position: 0 -50px;
+    background-position: center;
 }
 .weekend .plymouth:last-child
 {
@@ -1913,7 +1913,7 @@ section.register img
     {
         margin-right: 0;
     }
-    .main
+    .main:not(.single)
     {
         display: block;
         float: left;
@@ -1922,7 +1922,7 @@ section.register img
         margin-right: 2.35765%;
         margin-right: 0;
     }
-    .main:last-child
+    .main:not(.single):last-child
     {
         margin-right: 0;
     }

@@ -15,7 +15,7 @@
 	.aside {
 		@include span-columns(6);
 	}
-	.main {
+	.main:not(.single) {
 		@include span-columns(6);
 		@include omega;
 	}
