@@ -1264,10 +1264,6 @@ section.register img
 {
     display: none;
 }
-.weekend .schedule .organisation
-{
-    color: #666;
-}
 .weekend .dayschedule
 {
     width: 100%;
@@ -1297,10 +1293,35 @@ section.register img
     display: block;
     float: left;
 
-    width: 31.76157%;
+    width: 48.82117%;
     margin-right: 2.35765%;
 }
 .weekend .friday-text:last-child
+{
+    margin-right: 0;
+}
+.weekend .friday-register
+{
+    display: block;
+    float: left;
+
+    width: 23.23176%;
+    margin-right: 2.35765%;
+}
+.weekend .friday-register:last-child
+{
+    margin-right: 0;
+}
+.weekend .friday-minischedule
+{
+    display: block;
+    float: left;
+
+    width: 23.23176%;
+    margin-right: 2.35765%;
+    margin-right: 0;
+}
+.weekend .friday-minischedule:last-child
 {
     margin-right: 0;
 }
@@ -1309,20 +1330,20 @@ section.register img
     display: block;
     float: left;
 
-    width: 65.88078%;
+    width: 100%;
     margin-right: 2.35765%;
 }
 .weekend .friday-schedule:last-child
 {
     margin-right: 0;
 }
-.weekend .friday-schedule .schedule
-{
-    margin-top: -3em;
-}
 .weekend .friday-schedule .schedule td
 {
     width: 33%;
+}
+.weekend .friday-schedule .schedule .person
+{
+    font-weight: bold;
 }
 .weekend .saturday-text
 {
@@ -2250,7 +2271,7 @@ section.register img
     {
         margin-right: 0;
     }
-    .weekend .friday-text,.weekend .friday-schedule
+    .weekend .friday-register,.weekend .friday-minischedule,.weekend .friday-text,.weekend .friday-schedule
     {
         display: block;
         float: left;
@@ -2258,7 +2279,7 @@ section.register img
         width: 100%;
         margin-right: 2.35765%;
     }
-    .weekend .friday-text:last-child,.weekend .friday-schedule:last-child
+    .weekend .friday-register:last-child,.weekend .friday-minischedule:last-child,.weekend .friday-text:last-child,.weekend .friday-schedule:last-child
     {
         margin-right: 0;
     }

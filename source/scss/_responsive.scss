@@ -131,6 +131,8 @@
 		.travel-addresses {
 			@include span-columns(12);
 		}
+		.friday-register,
+		.friday-minischedule,
 		.friday-text,
 		.friday-schedule {
 			@include span-columns(12);
