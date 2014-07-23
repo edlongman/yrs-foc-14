@@ -246,6 +246,9 @@
 		.sunday-image {
 			display: none;
 		}
+		.sunday-judges .judge {
+			@include span-columns(12);
+		}
 	}
 	.coaches {
 		.centres {

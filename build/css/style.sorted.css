@@ -44,6 +44,10 @@ body
     font-weight: 400;
     line-height: 1.25;
 }
+h1,h2,h3,p,img
+{
+    padding: 0 5px;
+}
 p
 {
     margin-bottom: 1em;
@@ -1485,6 +1489,7 @@ section.register img
 
     width: 14.70196%;
     margin-right: 2.35765%;
+    margin-right: 0;
 }
 .weekend .sunday-image:last-child
 {
@@ -1496,6 +1501,62 @@ section.register img
 
     max-width: 100%;
     margin-top: -1em;
+}
+.weekend .sunday-judges
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-right: 2.35765%;
+}
+.weekend .sunday-judges:last-child
+{
+    margin-right: 0;
+}
+.weekend .sunday-judges .judge
+{
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+    margin-bottom: 2em;
+}
+.weekend .sunday-judges .judge:last-child
+{
+    margin-right: 0;
+}
+.weekend .sunday-judges .judge:nth-child(3n)
+{
+    margin-right: 0;
+}
+.weekend .sunday-judges .judge:nth-child(3n+1)
+{
+    clear: left;
+}
+.weekend .sunday-judges .judge h2
+{
+    margin: 0;
+    margin-bottom: .5em;
+}
+.weekend .sunday-judges .judge img
+{
+    width: 100%;
+    margin-bottom: .5em;
+}
+.weekend .sunday-judges .judge p
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin: 0;
+    margin-right: 2.35765%;
+}
+.weekend .sunday-judges .judge p:last-child
+{
+    margin-right: 0;
 }
 .centres
 {
@@ -2364,6 +2425,18 @@ section.register img
     .weekend .sunday-image
     {
         display: none;
+    }
+    .weekend .sunday-judges .judge
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .weekend .sunday-judges .judge:last-child
+    {
+        margin-right: 0;
     }
     .coaches .centres
     {
