@@ -1428,10 +1428,6 @@ section.register img
     display: block;
 
     padding: .5em;
-
-    background: -webkit-linear-gradient(left, rgba(0,0,0,.5), transparent);
-    background: linear,to right,rgba(0,0,0,.5),transparent;
-    text-shadow: 0 0 3px rgba(0,0,0,.2);
 }
 .weekend .saturdaynight .thevirusempire,.weekend .saturdaynight .j3wel,.weekend .saturdaynight .twoxaa,.weekend .saturdaynight .mizkai
 {
@@ -1441,6 +1437,9 @@ section.register img
 .weekend .saturdaynight .thevirusempire a,.weekend .saturdaynight .j3wel a,.weekend .saturdaynight .twoxaa a,.weekend .saturdaynight .mizkai a
 {
     color: #fff;
+    background: -webkit-linear-gradient(left, rgba(0,0,0,.5), transparent);
+    background: linear,to right,rgba(0,0,0,.5),transparent;
+    text-shadow: 0 0 3px rgba(0,0,0,.2);
 }
 .weekend .saturdaynight .thevirusempire
 {
