@@ -44,7 +44,7 @@ body
     font-weight: 400;
     line-height: 1.25;
 }
-h1,h2,h3,p,img
+h1,h2,h3,p,img,li
 {
     padding: 0 5px;
 }
@@ -1814,6 +1814,75 @@ section.register img
 .participants .whattobring .note
 {
     clear: both;
+}
+.projects
+{
+    display: block;
+    float: left;
+
+    width: 100%;
+    margin-right: 2.35765%;
+}
+.projects:last-child
+{
+    margin-right: 0;
+}
+.projects .rules li
+{
+    position: relative;
+
+    display: block;
+    float: left;
+
+    width: 23.23176%;
+    margin-right: 2.35765%;
+    padding-left: 2.5em;
+}
+.projects .rules li:last-child
+{
+    margin-right: 0;
+}
+.projects .rules li:nth-child(4n)
+{
+    margin-right: 0;
+}
+.projects .rules li:nth-child(4n+1)
+{
+    clear: left;
+}
+.projects .rules li:before
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.25em;
+
+    position: absolute;
+    left: 0;
+
+    width: 1.25em;
+    height: 1.25em;
+
+    text-align: center;
+
+    color: #db2628;
+    border-radius: 2em;
+    background: #f5f5f5;
+}
+.projects .rules li:nth-child(1):before
+{
+    content: '1';
+}
+.projects .rules li:nth-child(2):before
+{
+    content: '2';
+}
+.projects .rules li:nth-child(3):before
+{
+    content: '3';
+}
+.projects .rules li:nth-child(4):before
+{
+    content: '4';
 }
 .coaches
 {

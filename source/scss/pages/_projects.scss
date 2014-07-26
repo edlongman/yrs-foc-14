@@ -1,0 +1,36 @@
+.projects {
+	@include span-columns(12);
+	.rules {
+		li {
+			@include span-columns(3);
+			@include omega(4n);
+			padding-left: 2.5em;
+			position: relative;
+			&:before {
+				background: #f5f5f5;
+				border-radius: 2em;
+				color: $accent;
+				font-size: 1.5em;
+				font-weight: bold;
+				line-height: 1.25em;
+				height: 1.25em;
+				left: 0;
+				position: absolute;
+				text-align: center;
+				width: 1.25em;
+			}
+			&:nth-child(1):before {
+				content: "1";
+			}
+			&:nth-child(2):before {
+				content: "2";
+			}
+			&:nth-child(3):before {
+				content: "3";
+			}
+			&:nth-child(4):before {
+				content: "4";
+			}
+		}
+	}
+}
