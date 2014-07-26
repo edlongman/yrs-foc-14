@@ -262,6 +262,21 @@
 			-webkit-column-count: 1;
 		}
 	}
+	.projects {
+		.rules li {
+			@include span-columns(12);
+		}
+		.stages .stage {
+			@include span-columns(12);
+			&:not(:last-child):after {
+				content: "↡";
+				bottom: -0.75em;
+				left: 50%;
+				margin-left: -0.75em;
+				top: auto;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 500px) {

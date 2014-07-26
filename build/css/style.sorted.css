@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400);
+@charset 'UTF-8';@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400);
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
 {
     font: inherit;
@@ -1827,6 +1827,17 @@ section.register img
 {
     margin-right: 0;
 }
+.projects .clear
+{
+    clear: both;
+}
+.projects h3
+{
+    font-size: 1.2em;
+    font-weight: bold;
+
+    margin: 1em 0 .6em;
+}
 .projects .rules li
 {
     position: relative;
@@ -1836,6 +1847,7 @@ section.register img
 
     width: 23.23176%;
     margin-right: 2.35765%;
+    margin-bottom: 1em;
     padding-left: 2.5em;
 }
 .projects .rules li:last-child
@@ -1883,6 +1895,49 @@ section.register img
 .projects .rules li:nth-child(4):before
 {
     content: '4';
+}
+.projects .stages .stage
+{
+    position: relative;
+
+    display: block;
+    float: left;
+
+    width: 31.76157%;
+    margin-right: 2.35765%;
+}
+.projects .stages .stage:last-child
+{
+    margin-right: 0;
+}
+.projects .stages .stage:nth-child(3n)
+{
+    margin-right: 0;
+}
+.projects .stages .stage:nth-child(3n+1)
+{
+    clear: left;
+}
+.projects .stages .stage:not(:last-child):after
+{
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.25em;
+
+    position: absolute;
+    z-index: -999;
+    top: 2em;
+    right: -.85em;
+
+    width: 1.25em;
+    height: 1.25em;
+
+    content: '❱';
+    text-align: center;
+
+    color: #ccc;
+    border-radius: 2em;
+    background: #f3f3f3;
 }
 .coaches
 {
@@ -2543,6 +2598,40 @@ section.register img
     {
            -moz-column-count: 1;
         -webkit-column-count: 1;
+    }
+    .projects .rules li
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .projects .rules li:last-child
+    {
+        margin-right: 0;
+    }
+    .projects .stages .stage
+    {
+        display: block;
+        float: left;
+
+        width: 100%;
+        margin-right: 2.35765%;
+    }
+    .projects .stages .stage:last-child
+    {
+        margin-right: 0;
+    }
+    .projects .stages .stage:not(:last-child):after
+    {
+        top: auto;
+        bottom: -.75em;
+        left: 50%;
+
+        margin-left: -.75em;
+
+        content: '↡';
     }
 }
 @media screen and (max-width: 500px)

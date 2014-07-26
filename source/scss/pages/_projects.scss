@@ -1,9 +1,18 @@
 .projects {
 	@include span-columns(12);
+	.clear {
+		clear: both;
+	}
+	h3 {
+		font-size: 1.2em;
+		font-weight: bold;
+		margin: 1em 0 0.6em;
+	}
 	.rules {
 		li {
 			@include span-columns(3);
 			@include omega(4n);
+			margin-bottom: 1em;
 			padding-left: 2.5em;
 			position: relative;
 			&:before {
@@ -30,6 +39,29 @@
 			}
 			&:nth-child(4):before {
 				content: "4";
+			}
+		}
+	}
+	.stages {
+		.stage {
+			@include span-columns(4);
+			@include omega(3n);
+			position: relative;
+			&:not(:last-child):after {
+				background: #f3f3f3;
+				border-radius: 2em;
+				color: #ccc;
+				content: "❱";
+				font-size: 4em;
+				font-weight: bold;
+				line-height: 1.25em;
+				height: 1.25em;
+				position: absolute;
+				right: -0.85em;
+				text-align: center;
+				top: 2em;
+				width: 1.25em;
+				z-index: -999;
 			}
 		}
 	}
