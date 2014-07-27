@@ -1838,6 +1838,18 @@ section.register img
 
     margin: 1em 0 .6em;
 }
+.projects .rules .text
+{
+    display: block;
+    float: left;
+
+    width: 48.82117%;
+    margin-right: 2.35765%;
+}
+.projects .rules .text:last-child
+{
+    margin-right: 0;
+}
 .projects .rules li
 {
     position: relative;
@@ -1845,7 +1857,7 @@ section.register img
     display: block;
     float: left;
 
-    width: 23.23176%;
+    width: 48.82117%;
     margin-right: 2.35765%;
     margin-bottom: 1em;
     padding-left: 2.5em;
@@ -1854,11 +1866,11 @@ section.register img
 {
     margin-right: 0;
 }
-.projects .rules li:nth-child(4n)
+.projects .rules li:nth-child(2n)
 {
     margin-right: 0;
 }
-.projects .rules li:nth-child(4n+1)
+.projects .rules li:nth-child(2n+1)
 {
     clear: left;
 }
@@ -1895,6 +1907,21 @@ section.register img
 .projects .rules li:nth-child(4):before
 {
     content: '4';
+}
+.projects .rules .rules-video
+{
+    display: block;
+    float: left;
+
+    width: 48.82117%;
+    margin-top: 2em;
+    margin-right: 2.35765%;
+    margin-right: 0;
+    margin-bottom: 1em;
+}
+.projects .rules .rules-video:last-child
+{
+    margin-right: 0;
 }
 .projects .stages .stage
 {
@@ -2599,7 +2626,7 @@ section.register img
            -moz-column-count: 1;
         -webkit-column-count: 1;
     }
-    .projects .rules li
+    .projects .rules li,.projects .rules .text,.projects .rules .rules-video
     {
         display: block;
         float: left;
@@ -2607,7 +2634,7 @@ section.register img
         width: 100%;
         margin-right: 2.35765%;
     }
-    .projects .rules li:last-child
+    .projects .rules li:last-child,.projects .rules .text:last-child,.projects .rules .rules-video:last-child
     {
         margin-right: 0;
     }

@@ -263,8 +263,12 @@
 		}
 	}
 	.projects {
-		.rules li {
-			@include span-columns(12);
+		.rules {
+			li,
+			.text,
+			.rules-video {
+				@include span-columns(12);
+			}
 		}
 		.stages .stage {
 			@include span-columns(12);

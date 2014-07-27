@@ -1,5 +1,9 @@
 extends partials/_partials
 
+block head
+	link(href="/css/video-js.css", type="text/css", rel="stylesheet")
+	script(src="/js/video.js", type="text/javascript")
+
 block content	
 	.main.projects.single
 		h1 Working on projects &amp; presentations
@@ -7,13 +11,22 @@ block content
 			p During the week, you'll be working on a project or "hack". You can make anything you'd like, including games, apps, websites, hardware hacks or whatever else your imagination comes up with! Additionally, you're allowed to use any programming language you like for your project.
 			p If you're stuck for ideas, we recommend looking at previous projects on our <a href="http://hacks.youngrewiredstate.org/">hacks website</a>. Furthermore, you will need to upload your project to the hacks website before 5pm Thursday 31<sup>st</sup> if you want to present it at <a href="/weekend">the weekend in Plymouth</a>.
 		section.rules
-			h2 Rules &amp; Regulations
-			p Before starting work on your project, you should check that it follows these four key rules. Projects that do not follow these rules will not qualify for the semi-finals.
-			ol
-				li Your project must be new from Monday 28<sup>th</sup> July. You are not allowed to continue working on a project started before this date.
-				li You must ensure your idea doesn't already exist, or if it is out there already, your version must be significantly different.
-				li A team working on a project can be no larger than 4 members.
-				li You must include at least one open data set in your project. Take a look at our <a href="/resources">resources page</a> as a good starting point.
+			.text
+				h2 Rules &amp; Regulations
+				p Before starting work on your project, you should check that it follows these four key rules. Projects that do not follow these rules will not qualify for the semi-finals.
+				ol
+					li Your project must be new from Monday 28<sup>th</sup> July. You are not allowed to continue working on a project started before this date.
+					li You must ensure your idea doesn't already exist, or if it is out there already, your version must be significantly different.
+					li A team working on a project can be no larger than 4 members.
+					li You must include at least one open data set in your project. Take a look at our <a href="/resources">resources page</a> as a good starting point.
+			.rules-video
+				video(id="rules_video" class="video-js vjs-default-skin" controls preload="none" width="100%" height="299px"
+					poster="/video/rules.jpg"
+					data-setup="{}")
+					source(src="/video/rules.mp4" type='video/mp4')
+					source(src="/video/rules.wemb" type='video/webm')
+					source(src="/video/rules.ogv" type='video/ogg')
+					p.vjs-no-js To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
 			.clear
 		section.preparation
 			h2 Presentations
